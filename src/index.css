@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  html {
+    @apply p-0 m-0;
+  }
+  h1 {
+    @apply text-white;
+  }
+}
