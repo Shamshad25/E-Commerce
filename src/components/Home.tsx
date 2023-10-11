@@ -1,10 +1,11 @@
-import { Button } from "@material-tailwind/react";
+import { Header } from "./Header";
 
 const Home = () => {
   return (
-    <>
-      Home <Button>Button</Button>
-    </>
+    <main className="w-screen">
+      <Header />
+      <h1>Home</h1>
+    </main>
   );
 };
 

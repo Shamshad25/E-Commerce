@@ -12,7 +12,14 @@ export default withMT({
     fontFamily: {
       mono: ["ui-monospace", "SFMono-Regular"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        yellow: "#FFE475",
+        darkBlue: "#100E3A",
+        black: "#000",
+        white: "#fff",
+      },
+    },
   },
   plugins: [],
 });
