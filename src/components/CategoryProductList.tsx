@@ -1,7 +1,7 @@
 import { Card, Typography } from "@material-tailwind/react";
 import { BsChevronRight } from "react-icons/bs";
-import { useAppSelector } from "../redux/model/hooks";
-import { cartSelector } from "../redux/feature/cartSlice";
+import { useAppDispatch, useAppSelector } from "../redux/model/hooks";
+import { addCart, cartSelector } from "../redux/feature/cartSlice";
 import ProductCard from "./ProductCard";
 import React from "react";
 
@@ -15,6 +15,11 @@ const CategoryProductList = ({
   categoryUid,
 }: ComponentProps) => {
   const products = useAppSelector(cartSelector).products;
+  const dispatch = useAppDispatch();
+
+  const send = (e: any) => {
+    dispatch(addCart(e));
+  };
 
   const categoryProductList = products.filter(
     (product) => product.category === categoryUid
@@ -36,6 +41,7 @@ const CategoryProductList = ({
                 price={product.price}
                 name={product.name}
                 weight={product.weight}
+                handleOnChange={() => send(product)}
               />
             </React.Fragment>
           );

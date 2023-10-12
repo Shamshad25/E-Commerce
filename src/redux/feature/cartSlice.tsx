@@ -1,10 +1,10 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 import { IProduct } from "../model/ICart";
 import { data } from "../../data";
 
 interface TaskState {
-  cart: [];
+  cart: IProduct[];
   products: IProduct[];
 }
 
@@ -16,9 +16,13 @@ const initialState: TaskState = {
 export const cartSlice = createSlice({
   name: "tasks",
   initialState,
-  reducers: {},
+  reducers: {
+    addCart: (state, action: PayloadAction<IProduct>) => {
+      state.cart = [...state.cart, action.payload];
+    },
+  },
 });
 
-// export const {} = todoSlice.actions;
+export const { addCart } = cartSlice.actions;
 export const cartSelector = (state: RootState) => state.cartReducer;
 export default cartSlice.reducer;

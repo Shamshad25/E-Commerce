@@ -1,26 +1,38 @@
 import { CardBody, Typography } from "@material-tailwind/react";
-import { BsFillDashCircleFill, BsFillPlusCircleFill } from "react-icons/bs";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 interface cardProps {
   img: string;
-  price: string;
+  price: number;
   weight: string;
   name: string;
+  handleOnChange(): void;
 }
 
-const ProductCard = ({ img, name, weight, price }: cardProps) => {
+// BsFillDashCircleFill
+
+const ProductCard = ({
+  img,
+  name,
+  weight,
+  price,
+  handleOnChange,
+}: cardProps) => {
   return (
     <div className="mt-6 w-36">
       <div className="relative">
         <img src={img} alt="card-image" />
-        <span className="absolute right-8 bottom-4">
-          <BsFillDashCircleFill
+        <span
+          className="absolute right-8 bottom-4 cursor-pointer"
+          onClick={handleOnChange}
+        >
+          <BsFillPlusCircleFill
             color={"#40D589"}
             size={30}
             clasName="bg-red-300"
           />
         </span>
-        {/* <BsFillPlusCircleFill color={"#40D589"} /> */}
+        {/* <BsFillDashCircleFill color={"#40D589"} /> */}
       </div>
       <CardBody>
         <Typography
@@ -30,10 +42,10 @@ const ProductCard = ({ img, name, weight, price }: cardProps) => {
         >
           {price}
         </Typography>
-        <Typography variant="small" className="text-base">
+        <Typography variant="small" className="text-sm">
           {name}
         </Typography>
-        <Typography variant="small" className="font-base text-lightgray">
+        <Typography variant="small" className="font-sm text-lightgray">
           {weight}
         </Typography>
       </CardBody>

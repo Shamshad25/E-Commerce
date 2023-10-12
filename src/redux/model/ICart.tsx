@@ -7,7 +7,7 @@ export interface ICart {
 export interface IProduct {
   id: number;
   img: string;
-  price: string;
+  price: number;
   name: string;
   weight: string;
   category: string

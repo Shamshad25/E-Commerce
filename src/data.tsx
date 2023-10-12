@@ -7,7 +7,7 @@ export const data = [
   {
     id: 1,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "produce",
@@ -15,7 +15,7 @@ export const data = [
   {
     id: 2,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "produce",
@@ -23,7 +23,7 @@ export const data = [
   {
     id: 3,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "produce",
@@ -31,7 +31,7 @@ export const data = [
   {
     id: 4,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "produce",
@@ -39,7 +39,7 @@ export const data = [
   {
     id: 5,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "produce",
@@ -47,7 +47,7 @@ export const data = [
   {
     id: 6,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "produce",
@@ -55,7 +55,7 @@ export const data = [
   {
     id: 7,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "produce",
@@ -63,7 +63,7 @@ export const data = [
   {
     id: 8,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "produce",
@@ -71,7 +71,7 @@ export const data = [
   {
     id: 9,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "prepared-foods",
@@ -79,7 +79,7 @@ export const data = [
   {
     id: 10,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "prepared-foods",
@@ -87,7 +87,7 @@ export const data = [
   {
     id: 11,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "prepared-foods",
@@ -95,7 +95,7 @@ export const data = [
   {
     id: 12,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "prepared-foods",
@@ -103,7 +103,7 @@ export const data = [
   {
     id: 13,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "prepared-foods",
@@ -111,7 +111,7 @@ export const data = [
   {
     id: 14,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "prepared-foods",
@@ -119,7 +119,7 @@ export const data = [
   {
     id: 15,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "prepared-foods",
@@ -127,7 +127,7 @@ export const data = [
   {
     id: 16,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "prepared-foods",
@@ -135,7 +135,7 @@ export const data = [
   {
     id: 17,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "canned-foods-soups",
@@ -143,7 +143,7 @@ export const data = [
   {
     id: 18,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "canned-foods-soups",
@@ -151,7 +151,7 @@ export const data = [
   {
     id: 19,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "canned-foods-soups",
@@ -159,7 +159,7 @@ export const data = [
   {
     id: 20,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "canned-foods-soups",
@@ -167,7 +167,7 @@ export const data = [
   {
     id: 21,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "canned-foods-soups",
@@ -175,7 +175,7 @@ export const data = [
   {
     id: 22,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "canned-foods-soups",
@@ -183,7 +183,7 @@ export const data = [
   {
     id: 23,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "canned-foods-soups",
@@ -191,7 +191,7 @@ export const data = [
   {
     id: 24,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "canned-foods-soups",
@@ -199,7 +199,7 @@ export const data = [
   {
     id: 25,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "bakery",
@@ -207,7 +207,7 @@ export const data = [
   {
     id: 26,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "bakery",
@@ -215,7 +215,7 @@ export const data = [
   {
     id: 27,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "bakery",
@@ -223,7 +223,7 @@ export const data = [
   {
     id: 28,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "bakery",
@@ -231,7 +231,7 @@ export const data = [
   {
     id: 29,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "bakery",
@@ -239,7 +239,7 @@ export const data = [
   {
     id: 30,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "bakery",
@@ -247,7 +247,7 @@ export const data = [
   {
     id: 31,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "bakery",
@@ -255,7 +255,7 @@ export const data = [
   {
     id: 32,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "bakery",
@@ -263,7 +263,7 @@ export const data = [
   {
     id: 33,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "diary-eggs",
@@ -271,7 +271,7 @@ export const data = [
   {
     id: 34,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "diary-eggs",
@@ -279,7 +279,7 @@ export const data = [
   {
     id: 35,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "diary-eggs",
@@ -287,7 +287,7 @@ export const data = [
   {
     id: 36,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "diary-eggs",
@@ -295,7 +295,7 @@ export const data = [
   {
     id: 37,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "diary-eggs",
@@ -303,7 +303,7 @@ export const data = [
   {
     id: 38,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "diary-eggs",
@@ -311,7 +311,7 @@ export const data = [
   {
     id: 39,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "diary-eggs",
@@ -319,7 +319,7 @@ export const data = [
   {
     id: 40,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "diary-eggs",
@@ -327,7 +327,7 @@ export const data = [
   {
     id: 41,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "meat-seafood",
@@ -335,7 +335,7 @@ export const data = [
   {
     id: 42,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "meat-seafood",
@@ -343,7 +343,7 @@ export const data = [
   {
     id: 43,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "meat-seafood",
@@ -351,7 +351,7 @@ export const data = [
   {
     id: 44,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "meat-seafood",
@@ -359,7 +359,7 @@ export const data = [
   {
     id: 45,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "meat-seafood",
@@ -367,7 +367,7 @@ export const data = [
   {
     id: 46,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "meat-seafood",
@@ -375,7 +375,7 @@ export const data = [
   {
     id: 47,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "meat-seafood",
@@ -383,7 +383,7 @@ export const data = [
   {
     id: 48,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "meat-seafood",
@@ -391,7 +391,7 @@ export const data = [
   {
     id: 49,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "frozen",
@@ -399,7 +399,7 @@ export const data = [
   {
     id: 50,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "frozen",
@@ -407,7 +407,7 @@ export const data = [
   {
     id: 51,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "frozen",
@@ -415,7 +415,7 @@ export const data = [
   {
     id: 52,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "frozen",
@@ -423,7 +423,7 @@ export const data = [
   {
     id: 53,
     img: strawberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Strawberries",
     weight: "1 lb",
     category: "frozen",
@@ -431,7 +431,7 @@ export const data = [
   {
     id: 54,
     img: yogurt,
-    price: "$0.69",
+    price: 0.69,
     name: "Yogurt",
     weight: "1 lb",
     category: "frozen",
@@ -439,7 +439,7 @@ export const data = [
   {
     id: 55,
     img: banana,
-    price: "$0.69",
+    price: 0.69,
     name: "Banana 1 ct",
     weight: "18 oz",
     category: "frozen",
@@ -447,7 +447,7 @@ export const data = [
   {
     id: 56,
     img: blueberry,
-    price: "$0.69",
+    price: 0.69,
     name: "Blackberries",
     weight: "1 lb",
     category: "frozen",
