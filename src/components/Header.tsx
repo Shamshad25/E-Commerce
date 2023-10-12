@@ -6,7 +6,7 @@ import { BsCart } from "react-icons/bs";
 // BsCart
 export function Header() {
   return (
-    <Navbar className="min-w-full py-3 px-4 rounded-none bg-yellow border-none">
+    <Navbar className="min-w-full h-20 px-4 rounded-none bg-yellow border-none fixed z-50">
       <div className="container mx-auto flex items-center justify-between text-darkBlue">
         <div>
           <Typography
