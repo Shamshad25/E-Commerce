@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Navbar, Typography, Button } from "@material-tailwind/react";
+import { Navbar, Typography } from "@material-tailwind/react";
 import Menu from "@mui/material/Menu";
 import frame from "../assets/Frame.svg";
 import { useAppSelector } from "../redux/model/hooks";
@@ -16,7 +16,6 @@ export function Header() {
 
   const cartValues = useAppSelector(cartSelector).cart;
   // const dispatch = useAppDispatch();
-
 
   const handleClose = () => {
     setAnchorEl(null);
@@ -35,31 +34,31 @@ export function Header() {
   }, [total]);
 
   return (
-    <Navbar className="min-w-full h-20 px-4 rounded-none bg-yellow border-none fixed z-50">
+    <Navbar className="min-w-full h-20 px-4 rounded-none bg-white sm:bg-yellow border-none fixed z-50">
       <div className="container mx-auto flex items-center justify-between text-darkBlue">
         <div>
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-extrabold text-2xl font-serif"
+            className="mr-4 cursor-pointer py-1.5 font-extrabold text-lg sm:text-2xl font-serif"
           >
             E-Commerce
           </Typography>
         </div>
         <div className="flex gap-6">
-          <Button className="rounded-full flex gap-2" color="white">
+          <button className="bg-white rounded-full flex items-center gap-2 py-3 px-6 drop-shadow-md">
             <img src={frame} alt="frame" />
             <Typography className="text-sm font-bold">Share Logs</Typography>
-          </Button>
-          <Button
+          </button>
+          <button
             onClick={handleClick}
-            className=" bg-white flex items-center px-5 rounded-full gap-2 relative"
+            className=" bg-white rounded-full flex items-center gap-2 py-3 px-6 drop-shadow-md relative"
           >
             <BsCart size={20} color={"black"} />
             <Typography className="font-xl font-bold text-black">
               {cartValues.length}
             </Typography>
-          </Button>
+          </button>
 
           <Menu
             id="basic-menu"
@@ -118,8 +117,8 @@ export function Header() {
                       );
                     })}
                 </div>
-                <Typography variant="small" className="font-bold pl-4">
-                  Total: ${price}
+                <Typography variant="small" className="font-bold pl-4 py-2">
+                  Total Price: ${price}
                 </Typography>
               </div>
             ) : (

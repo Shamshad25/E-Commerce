@@ -11,7 +11,7 @@ interface ICategory {
 
 const Category = () => {
   return (
-    <section className="  p-8 rounded-none shadow-md shadow-blue-gray-900/5">
+    <section className="rounded-none shadow-md shadow-blue-gray-900/5">
       {categories.map((category: ICategory) => (
         <CategoryProductList
           categoryTitle={category.title}

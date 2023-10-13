@@ -1,4 +1,4 @@
-import { CardBody, Typography } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import { BsFillDashCircleFill, BsFillPlusCircleFill } from "react-icons/bs";
 import { useAppSelector } from "../redux/model/hooks";
 import { cartSelector } from "../redux/feature/cartSlice";
@@ -27,26 +27,26 @@ const ProductCard = ({
   const isExisting = cartValues.some((value) => value.id == id);
 
   return (
-    <div className="mt-6 w-36">
+    <div className="mt-6 w-full">
       <div className="relative">
-        <img src={img} alt="card-image" />
+        <img src={img} alt="card-image" className="w-30 h-30 " />
         {isExisting ? (
           <span
-            className="absolute right-8 bottom-4 cursor-pointer"
+            className="absolute  right-8 bottom-0 cursor-pointer"
             onClick={handleRemove}
           >
             <BsFillDashCircleFill color={"#40D589"} size={30} />
           </span>
         ) : (
           <span
-            className="absolute right-8 bottom-4 cursor-pointer"
+            className="absolute right-8 bottom-0 cursor-pointer"
             onClick={handleOnChange}
           >
             <BsFillPlusCircleFill color={"#40D589"} size={30} />
           </span>
         )}
       </div>
-      <CardBody>
+      <div>
         <Typography
           variant="paragraph"
           color="blue-gray"
@@ -60,7 +60,7 @@ const ProductCard = ({
         <Typography variant="small" className="font-sm text-lightgray">
           {weight}
         </Typography>
-      </CardBody>
+      </div>
     </div>
   );
 };

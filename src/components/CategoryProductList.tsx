@@ -29,14 +29,14 @@ const CategoryProductList = ({
     (product) => product.category === categoryUid
   );
   return (
-    <div>
+    <div className="border-b-2 border-gray-300 p-8">
       <div id={categoryUid} className="flex gap-2 items-center">
         <Typography className="text-3xl font-bold font-serif">
           {categoryTitle}
         </Typography>
         <BsChevronRight className="font-extrabold text-2xl" />
       </div>
-      <Card className="my-8 drop-shadow-md flex flex-row">
+      <div className="py-4 w-full grid grid-cols-3 sm:grid-cols-8">
         {categoryProductList.map((product) => {
           return (
             <React.Fragment key={product.id}>
@@ -52,7 +52,7 @@ const CategoryProductList = ({
             </React.Fragment>
           );
         })}
-      </Card>
+      </div>
     </div>
   );
 };

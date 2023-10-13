@@ -20,6 +20,7 @@ export default withMT({
         white: "#fff",
         sideblue: "#5DA9E9",
         lightgray: "#B6BAC3",
+        brightgray: '#EDEDED',
         btnGreen: "#40D589",
       },
     },
