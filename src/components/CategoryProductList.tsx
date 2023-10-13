@@ -1,4 +1,4 @@
-import { Card, Typography } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import { BsChevronRight } from "react-icons/bs";
 import { useAppDispatch, useAppSelector } from "../redux/model/hooks";
 import { addCart, cartSelector, removeCart } from "../redux/feature/cartSlice";

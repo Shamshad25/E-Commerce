@@ -20,10 +20,10 @@ export const cartSlice = createSlice({
     addCart: (state, action: PayloadAction<IProduct>) => {
       state.cart = [...state.cart, action.payload];
     },
-    removeCart: (state, action: PayloadAction<IProduct>) => {
+    removeCart: (state, action: PayloadAction<number>) => {
       const data = state.cart.filter((el) => el.id !== action.payload);
+      console.log("PAYLOAD ", action.payload);
       state.cart = data;
-      console.log("state", state.cart);
     },
   },
 });

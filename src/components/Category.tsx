@@ -1,6 +1,3 @@
-import React from "react";
-
-// import Card from "./Card";
 import CategoryProductList from "./CategoryProductList";
 import { categories } from "../constants";
 

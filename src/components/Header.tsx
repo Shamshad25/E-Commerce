@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import { Navbar, Typography } from "@material-tailwind/react";
 import Menu from "@mui/material/Menu";
 import frame from "../assets/Frame.svg";
@@ -34,13 +34,13 @@ export function Header() {
   }, [total]);
 
   return (
-    <Navbar className="min-w-full h-20 px-4 rounded-none bg-white sm:bg-yellow border-none fixed z-50">
+    <Navbar className="min-w-full h-20 px-4 rounded-none bg-white md:bg-yellow border-none fixed z-50">
       <div className="container mx-auto flex items-center justify-between text-darkBlue">
         <div>
           <Typography
             as="a"
             href="#"
-            className="mr-4 cursor-pointer py-1.5 font-extrabold text-lg sm:text-2xl font-serif"
+            className="mr-4 cursor-pointer py-1.5 font-extrabold text-lg md:text-2xl font-serif"
           >
             E-Commerce
           </Typography>
