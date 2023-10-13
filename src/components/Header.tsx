@@ -1,4 +1,4 @@
-import  { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { Navbar, Typography } from "@material-tailwind/react";
 import Menu from "@mui/material/Menu";
 import frame from "../assets/Frame.svg";
@@ -77,6 +77,7 @@ export function Header() {
                   display: "flex",
                   flexDirection: "column",
                 }}
+                className="max-h-80"
               >
                 <button
                   onClick={handleClose}
@@ -87,7 +88,7 @@ export function Header() {
                 <div className=" w-full flex justify-center border-b-2 border-gray-400">
                   <Typography variant="paragraph">Cart Items</Typography>
                 </div>
-                <div className=" w-full flex flex-col gap-2 pt-2 border-b-2 border-gray-400">
+                <div className="w-full	flex flex-col gap-2 pt-2 border-b-2 border-gray-400">
                   {cartValues &&
                     cartValues.map((ele) => {
                       return (
@@ -117,9 +118,11 @@ export function Header() {
                       );
                     })}
                 </div>
-                <Typography variant="small" className="font-bold pl-4 py-2">
-                  Total Price: ${price}
-                </Typography>
+                <div>
+                  <Typography variant="small" className="font-bold pl-4 py-6">
+                    Total Price: ${price}
+                  </Typography>
+                </div>
               </div>
             ) : (
               <div className="relative flex flex-col justify-center items-end p-2">
