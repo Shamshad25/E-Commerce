@@ -17,6 +17,7 @@ export function Header() {
   const cartValues = useAppSelector(cartSelector).cart;
   // const dispatch = useAppDispatch();
 
+
   const handleClose = () => {
     setAnchorEl(null);
   };
