@@ -20,3 +20,11 @@ Live LINK click here :- https://e-commerce02.netlify.app/
 - Typescript
 - Tailwind CSS
 - Redux Toolkit
+
+## Help
+
+Any advise for common problems or issues please feel free to react out.
+
+## Author
+
+Shamshad Alam
